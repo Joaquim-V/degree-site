@@ -1,0 +1,128 @@
+/* Reset some default browser styles */
+html, body, h1, form {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color and text color for the body */
+body {
+    background-color: #f2f2f2;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Center align the page content */
+.center {
+    text-align: center;
+}
+
+/* Style the header */
+
+h1 {
+    background-color: #19747E;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer {
+    background-color: #19747E;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+/* Style the form container */
+form {
+    background-color: #D1E8E2;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the form input and button */
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    width: 98%;
+    height: 30px;
+    padding: auto;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    
+}
+
+button[type="submit"] {
+    background-color: #023E8A;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Style the result container */
+#result {
+    margin: 20px auto;
+    max-width: 420px;
+    height: 75px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #D1E8E2;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Set the background image for the body */
+body {
+    background-image: url('https://media.licdn.com/dms/image/C4D12AQGDr96-V9Ed7w/article-cover_image-shrink_720_1280/0/1615294102431?e=2147483647&v=beta&t=AwlU2Q-BZs7xQEQriExOPxCyLOOKmYF3dO7-jOwUksU');
+    background-size: cover; /* Adjust the image size to cover the entire viewport */
+    background-repeat: repeat; /* Prevent image repetition */
+    background-attachment: fixed; /* Keep the background fixed while scrolling */
+}
+
+
+ /* Modal Styles */
+ .modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+}
+
+.modal-content {
+    background-color: #fff;
+    margin: 15% auto;
+    padding: 20px;
+    width: 70%;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.close {
+    float: right;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* Close the modal when the "x" is clicked */
+.close:hover {
+    color: black;
+}
