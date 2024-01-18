@@ -3,7 +3,7 @@ document.getElementById("degreeForm").addEventListener("submit", function(event)
     const degree = document.getElementById("degree").value;
     const resultElement = document.getElementById("result");
 
-    let paragraph = "<p>This degree is considered worth it.</p>";
+    let paragraph = "<p>Information about this course is coming soon. Note that, universities are businesses and businesses run on profit, make proper research about your chosen degree or career prospects.</p>";
 
     // You can add more cases for different degrees here
     if (degree.toLowerCase().includes("engineering")) {
