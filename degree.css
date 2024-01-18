@@ -78,7 +78,7 @@ button[type="submit"]:hover {
 #result {
     margin: 20px auto;
     max-width: 420px;
-    height: 75px;
+    height: 100px;
     padding: 10px;
     border-radius: 5px;
     background-color: #D1E8E2;
